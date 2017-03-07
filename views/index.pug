@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    div.container
+        div.row.top-buffer.bottom-buffer
+            div.col-xs-offset-2.col-xs-8
+                div.input-group
+                    input#cat-title.form-control(type='text', placeholder='Type category title here...' name='cat-title')
+                    span#fn-add-cat.input-group-addon Add Category
+        div.row.bottom-buffer    
+            div.col-xs-offset-2.col-xs-8
+                div.table-responsive
+                    table.table.table-bordered.table-striped    
+                        colgroup
+                            col.col-xs-8 
+                        thead
+                            tr                            
+                                th Category
+                        tbody#cat-body 
+                            
+
+
+      
